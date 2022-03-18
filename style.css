@@ -1,0 +1,78 @@
+p {
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+    color: #555;
+}
+
+.test01 {
+    margin-bottom: 1.6rem;
+}
+
+#innerTest {
+    margin-bottom: 1.6rem;
+}
+
+.stop-watch {
+    max-width: 1280px;
+    text-align: center;
+    margin: 3rem auto 0;
+}
+
+.stop-watch_number {
+    max-width: 16rem;
+    margin: 0 auto 1.6rem;
+    padding: 1rem 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+    border: 1px solid #555;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: .8rem 2rem;
+    border-radius: 3px;
+    background: #ccc;
+    transition: all ease .2s;
+}
+
+.startButton {
+    margin-right: 1.6rem;
+    border: 1px solid #FF6262;
+    background-color: #fff;
+    color: #FF6262;
+}
+
+.startButton:hover {
+    background-color: #FF6262;
+    color: #fff;
+}
+
+.stopButton {
+    border: 1px solid #36ABFF;
+    background-color: #fff;
+    color: #36ABFF;
+}
+
+.stopButton:hover {
+    background-color: #36ABFF;
+    color: #fff;
+}
+
+.log {
+    margin-top: 1.6rem;
+}
+
+.log div {
+    margin-top: .6rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.log div:first-child {
+    margin-top: 0;
+}
